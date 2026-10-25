@@ -1,5 +1,5 @@
 # run on single file: clang-format -i --style=file <file>
-# run on entire codebase: 
+# run on entire codebase: cmake --build --preset debug --target format
 
 Language: Cpp
 BasedOnStyle: Google

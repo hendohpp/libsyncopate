@@ -1,6 +1,6 @@
-#ifndef SYNCOPATE_HPP__
-#define SYNCOPATE_HPP__
+#ifndef SYNCOPATE_HPP_
+#define SYNCOPATE_HPP_
 
-//!TODO: add core-api here
+//! TODO: add core-api here
 
-#endif // SYNCOPATE_HPP__
+#endif  // SYNCOPATE_HPP_
