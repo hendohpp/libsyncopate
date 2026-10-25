@@ -1,0 +1,5 @@
+# run on single file: clang-format -i --style=file <file>
+# run on entire codebase: 
+
+Language: Cpp
+BasedOnStyle: Google

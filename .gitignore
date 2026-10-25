@@ -1,0 +1,41 @@
+# build output
+build/
+Build/
+bin/
+Bin/
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.lib
+*.dll
+*.out
+*.exe
+
+
+# cmake output
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+
+# testing artifacts and configurations
+CTestTestfile.cmake
+Testing/
+*.gtest_*.xml
+*.log
+
+
+# editor
+.vscode/
+.idea/
+
+
+# OS
+.DS_store
+Thumbs.db
