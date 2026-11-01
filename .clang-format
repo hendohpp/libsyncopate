@@ -2,4 +2,16 @@
 # run on entire codebase: cmake --build --preset debug --target format
 
 Language: Cpp
-BasedOnStyle: Google
+BasedOnStyle: LLVM
+
+IndentWidth: 4
+ColumnLimit: 100
+UseTab: Never
+
+BraceWrapping:
+  AfterFunction: true
+  SplitEmptyFunction: false
+
+PointerAlignment: Left
+
+SpaceBeforeParens: ControlStatements

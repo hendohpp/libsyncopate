@@ -1,21 +1,15 @@
 Checks: >
   -*,
   bugprone-*,
-  cppcoreguidelines-*,
-  google-*,
-  modernize-*,
   performance-*,
-  readability-*,
-  -modernize-use-trailing-return-type,
-  -readability-braces-around-statements,
-  -readability-implicit-bool-conversion,
-  -cppcoreguidelines-owning-memory
+  -performance-avoid-endl,
+  -bugprone-easily-swappable-parameters
 
-WarningsAsErrors: 'google-*,bugprone-*,performance-*'
+WarningsAsErrors: 'bugprone-*,performance-*'
 
 CheckOptions:
   readability-identifier-naming.ClassCase: CamelCase
-  readability-identifier-naming.VariableCase: lower_case
-  readability-identifier-naming.FunctionCase: CamelCase
-  readability-identifier-naming.MemberCase: lower_case
+  readability-identifier-naming.VariableCase: camelBack
+  readability-identifier-naming.FunctionCase: camelBack
+  readability-identifier-naming.MemberCase: camelBack
   readability-identifier-naming.MemberSuffix: '_'

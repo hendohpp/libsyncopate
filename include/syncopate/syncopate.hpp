@@ -3,4 +3,4 @@
 
 //! TODO: add core-api here
 
-#endif  // SYNCOPATE_HPP_
+#endif // SYNCOPATE_HPP_

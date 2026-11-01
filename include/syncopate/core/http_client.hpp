@@ -1,0 +1,6 @@
+#ifndef SYNCOPATE_CORE_HTTP_CLIENT_HPP_
+#define SYNCOPATE_CORE_HTTP_CLIENT_HPP_
+
+namespace syncopate::core {};
+
+#endif // SYNCOPATE_CORE_HTTP_CLIENT_HPP_

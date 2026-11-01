@@ -1,0 +1,1 @@
+#include <syncopate/core/auth.hpp>
