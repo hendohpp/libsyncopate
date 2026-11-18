@@ -14,7 +14,7 @@ cmake_minimum_required(VERSION 3.25)
 project(
     syncopate
     VERSION 0.1.0
-    DESCRIPTION "C++23 library"
+    DESCRIPTION "C++23 API for music playlist transfer between your favourite apps."
     LANGUAGES CXX
 )
 
@@ -36,7 +36,11 @@ include(FetchContent)
 
 # libsyncopate sources
 add_library(syncopate 
-    "src/logger.cpp"
+    "src/core/auth.cpp"
+    "src/core/http_client.cpp"
+    "src/core/json_codec.cpp"
+    "src/core/json_value.cpp"
+    "src/core/logger.cpp"
 )
 target_include_directories(syncopate PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/include")
 

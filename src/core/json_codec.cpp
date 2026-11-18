@@ -1,0 +1,1 @@
+#include "syncopate/core/json_codec.hpp"
