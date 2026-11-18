@@ -10,3 +10,8 @@ target_link_libraries(ci_test
 
 include(GoogleTest)
 gtest_discover_tests(ci_test)
+
+
+# 
+add_subdirectory(unit)
+add_subdirectory(integration)
